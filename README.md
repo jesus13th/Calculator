@@ -1,7 +1,7 @@
 # Calculadora Xamarin.Forms
 
 Este proyecto es una calculadora básica desarrollada en Xamarin.Forms utilizando C# y la librería NCalc para el análisis y evaluación de expresiones matemáticas.
-![MirrorGo_20240722_130815_677](https://github.com/user-attachments/assets/99df7e7f-c32d-4d3a-acc9-bfbc4c797726)
+<img src="https://github.com/user-attachments/assets/99df7e7f-c32d-4d3a-acc9-bfbc4c797726" alt="Calculadora" width="300"/>
 
 
 ## Características
