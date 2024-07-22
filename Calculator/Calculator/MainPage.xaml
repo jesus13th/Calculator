@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.MainPage">
+
+    <StackLayout>
+        <StackLayout VerticalOptions="EndAndExpand" Margin="10">
+            <Label x:Name="currentOperation" HorizontalTextAlignment="End" Text="0" FontSize="32"/>
+            <Label x:Name="result" FontSize="42" HorizontalTextAlignment="End"/>
+        </StackLayout>
+        <Grid RowDefinitions=".25*, .25*, .25*, .25*, .25*" ColumnDefinitions=".25*, .25*, .25*, .25*" VerticalOptions="EndAndExpand" Padding="10">
+            <Button Text="C" FontSize="42" HeightRequest="100" WidthRequest="100" CornerRadius="100" Grid.Row="0" Grid.Column="0" Clicked="clear_Clicked" BackgroundColor="LightGray" TextColor="DimGray"/>
+            <Button Text="⌫" FontSize="42" CornerRadius="100" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Clicked="backspace_Clicked" BackgroundColor="LightGray" TextColor="DimGray"/>
+            
+            <Button Text="÷" FontSize="42" CornerRadius="100" Grid.Row="0" Grid.Column="3" Clicked="addValue_Clicked" BindingContext="÷" BackgroundColor="Orange"/>
+
+            <Button Text="7" FontSize="42" CornerRadius="100" Grid.Row="1" Grid.Column="0" Clicked="addValue_Clicked" BindingContext="7"/>
+            <Button Text="8" FontSize="42" CornerRadius="100" Grid.Row="1" Grid.Column="1" Clicked="addValue_Clicked" BindingContext="8"/>
+            <Button Text="9" FontSize="42" CornerRadius="100" Grid.Row="1" Grid.Column="2" Clicked="addValue_Clicked" BindingContext="9"/>
+            <Button Text="x" FontSize="42" CornerRadius="100" Grid.Row="1" Grid.Column="3" Clicked="addValue_Clicked" BindingContext="x" BackgroundColor="Orange"/>
+
+            <Button Text="4" FontSize="42" CornerRadius="100" Grid.Row="2" Grid.Column="0" Clicked="addValue_Clicked" BindingContext="4"/>
+            <Button Text="5" FontSize="42" CornerRadius="100" Grid.Row="2" Grid.Column="1" Clicked="addValue_Clicked" BindingContext="5"/>
+            <Button Text="6" FontSize="42" CornerRadius="100" Grid.Row="2" Grid.Column="2" Clicked="addValue_Clicked" BindingContext="6"/>
+            <Button Text="-" FontSize="42" CornerRadius="100" Grid.Row="2" Grid.Column="3"  Clicked="addValue_Clicked" BindingContext="-" BackgroundColor="Orange"/>
+
+            <Button Text="1" FontSize="42" CornerRadius="100" Grid.Row="3" Grid.Column="0" Clicked="addValue_Clicked" BindingContext="1"/>
+            <Button Text="2" FontSize="42" CornerRadius="100" Grid.Row="3" Grid.Column="1" Clicked="addValue_Clicked" BindingContext="2"/>
+            <Button Text="3" FontSize="42" CornerRadius="100" Grid.Row="3" Grid.Column="2" Clicked="addValue_Clicked" BindingContext="3"/>
+            <Button Text="+" FontSize="42" CornerRadius="100" Grid.Row="3" Grid.Column="3" Clicked="addValue_Clicked" BindingContext="+" BackgroundColor="Orange"/>
+
+            <Button Text="0" FontSize="42" CornerRadius="100" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Clicked="addValue_Clicked" BindingContext="0"/>
+            <Button Text="." FontSize="42" CornerRadius="100" Grid.Row="4" Grid.Column="2" Clicked="addValue_Clicked" BindingContext="."/>
+            <Button Text="=" FontSize="42" CornerRadius="100" Grid.Row="4" Grid.Column="3" BackgroundColor="Orange" Clicked="showResult_Clicked"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

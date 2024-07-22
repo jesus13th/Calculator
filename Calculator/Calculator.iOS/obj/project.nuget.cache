@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pv9a6ShhcDpidvnLzKy/wCMzFO9apPNRK7PZlR863ejzmboFYzzOSEc8U5xx/HOcVr4p8Gns/rathws0mXuY6w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jesus\\source\\repos\\Calculator\\Calculator\\Calculator.iOS\\Calculator.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jesus\\.nuget\\packages\\antlr4.runtime.standard\\4.13.1\\antlr4.runtime.standard.4.13.1.nupkg.sha512",
+    "C:\\Users\\jesus\\.nuget\\packages\\coreclr-ncalc\\3.1.253\\coreclr-ncalc.3.1.253.nupkg.sha512",
+    "C:\\Users\\jesus\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jesus\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\jesus\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
